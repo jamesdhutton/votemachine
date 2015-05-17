@@ -1,0 +1,7 @@
+{
+	"host": "YOURHOSTNAME",
+	"password": "YOURPASSWORD",
+	"port": 6380,
+	"ssl": true,
+	"choices": ["Bugs Bunny", "Daffy Duck", "Mickey Mouse", "Scooby Doo"]
+}
