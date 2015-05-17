@@ -7,6 +7,9 @@ more Raspberry Pis to act as voting booths. The Pis send the
 votes to a central Redis Cache in the cloud, which you can create
 using Azure or other cloud providers. 
 
+For a detailed description of how to install and use the voting
+booth, see https://lexerhack.wordpress.com/2015/05/17/voting-booth/
+
 ##Installation:
 
 Get pip if you don't already have it:
@@ -30,7 +33,7 @@ sudo apt-get install python-matplotlib
 Start by configuring a Redis Cache using Azure or your favourite cloud provider.
 Then, on each Raspberry Pi you want to use as a voting booth:
 
-1. Edit `host` and `password` entries in `config.json` so that they point to your server
+1. Edit the `host` and `password` entries in `config.json` so that they point to your server
 2. Edit the `choices` entry to contain the choices you want on the ballot
 
 ##Running an election
