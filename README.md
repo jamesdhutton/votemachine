@@ -14,7 +14,7 @@ booth, see https://lexerhack.wordpress.com/2015/05/17/voting-booth/
 
 Get pip if you don't already have it:
 ```
-sudo curl https://bootstrap.pypa.io/get-pip.py | sudo python
+sudo curl https://bootstrap.pypa.io/get-pip.py | python
 ```
 
 Install redis:
