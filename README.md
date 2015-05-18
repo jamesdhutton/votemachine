@@ -46,10 +46,10 @@ python initelection.py
 
 Start a voting booth:
 ```
-python initelection.py
+python vote.py
 ```
 
-Get results:
+Display election results in a bar chart:
 ```
 python results.py
 ```
